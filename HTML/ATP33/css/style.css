@@ -1,0 +1,73 @@
+div{
+    text-align: center;
+    margin: 50px auto ;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+body{
+    background: rgb(137, 153, 205);
+    background: radial-gradient(circle, #8999cd 0%, #4374af 100%);
+}
+
+
+.BemVindo{
+    background-image: url(/HTML/ATP33/Imagem/praia.gif) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 160px;
+    font-size: 45px;
+    color:aliceblue;
+    padding-top: 60px ;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    text-shadow: 2px 2px #000000;
+}
+
+.conteudo{
+    background-color: white;
+    width: 50%;
+    height: 250px;
+
+}
+
+nav{
+     text-align: center;
+
+}
+
+a{
+    text-decoration:none;
+    font-size: 150%;
+    border: #4374af 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: #4374af 1px 1px 0px 1px
+}
+
+a:hover{
+    color: white;
+    background:#4374af;
+    border-radius: 5px;
+   
+}
+
+.divLink{
+    box-shadow: none;
+    margin: 20px auto;
+}
+
+.divSpan{
+    box-shadow: none;
+    font-size: 25px;
+    border-bottom: hsl(213, 45%, 47%) 1px solid;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 5px ;
+    color: #4374af;
+}
+
+

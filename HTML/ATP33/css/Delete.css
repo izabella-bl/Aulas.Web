@@ -1,0 +1,85 @@
+div{
+    text-align: center;
+    margin: 50px auto ;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-color: white;
+    width: 50%;
+    height: 550px;
+}
+
+body{
+    background: rgb(137, 153, 205);
+    background: radial-gradient(circle, #8999cd 0%, #4374af 100%);
+}
+
+.divlabel{
+    text-align: center;
+    box-shadow: none;
+    width: 60%;
+    height: 10%;
+    margin: 4px;
+    padding: 5px 0px 0px 2px;
+    color: #4374af;
+   
+}
+
+input{
+    width: 280px;
+    height: 30px;
+    border: #4374af 1px solid;
+    border-radius: 4px ;
+    box-shadow: #8999cd 1px 1px 1px 0px;
+    line-height: 28px;
+    padding: 0px 5px 0px;
+}
+
+input[type="date"]{
+    padding: 3px;
+}
+
+h1{
+    color: #8999cd;
+    text-shadow: #4374af 1px ;
+    padding: 10px 0px 5px 0px;
+}
+
+input[type="submit"]{
+    padding: 0px 5px 5px 5px;
+    width: 100px;
+}
+
+input[type="submit"]:hover{
+     color: white;
+     background-color: #4374af;
+}
+
+button{
+    padding: 0px 5px 5px 5px;
+    width: 100px;
+    height: 30px;
+    border: #4374af 1px solid;
+    border-radius: 4px ;
+    box-shadow: #8999cd 1px 1px 1px 0px;
+    line-height: 28px;
+    margin-left: 5px;
+}
+
+button:hover{
+    color: white;
+    background-color: #4374af;
+}
+
+.divbuttom{
+    box-shadow: none;
+    height: 10px;
+}
+
+a{
+    font-size: 20px;
+}
+.divDeletar{
+    box-shadow: none;
+    height: 20px;
+}

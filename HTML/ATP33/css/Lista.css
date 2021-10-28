@@ -1,0 +1,97 @@
+.divConteudo{
+    text-align: center;
+    margin: 50px auto ;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-color: white;
+    width: 50%;
+    height: 550px;
+}
+
+body{
+    background: rgb(137, 153, 205);
+    background: radial-gradient(circle, #8999cd 0%, #4374af 100%);
+}
+
+
+table.redTable {
+    border: 2px solid #A4A3A3;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+ 
+table.redTable td, table.redTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+ 
+}
+
+  
+table.redTable tbody td {
+    font-size: 14px;
+  
+}
+  
+table.redTable tr:nth-child(even) {
+    background: #E0F5F4;
+  
+}
+
+table.redTable thead {
+    background: #496FA4;
+}
+
+table.redTable thead th {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #496FA4;
+}
+
+table.redTable thead th:first-child {
+    border-left: none;
+}
+  
+table.redTable tfoot {
+    font-size: 1px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #496FA4;
+    width: 100%;
+
+}
+
+table.redTable tfoot td {
+    font-size: 10px;
+}
+
+ table.redTable tfoot .links {
+    text-align: right;
+}
+
+table.redTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #222EA4;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.divtabela{
+    margin-left: 20%;
+}
+
+h1{
+    color: #8999cd;
+    text-shadow: #4374af 1px ;
+    padding: 10px 0px 10px;
+}
+
+a{
+    font-size: 20px;
+}
