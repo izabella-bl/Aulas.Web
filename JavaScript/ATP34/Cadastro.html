@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/Cadastro.css">
+    <script src="JavaScript/script1.js"></script>
+</head>
+<body>
+    <div>
+        <H1>Cadastro de Viagem</H1>
+        <form>
+            <div class="divlabel"><label >Id:</label></div>
+            <input type="number" id="id" /> <br />
+    
+            <div class="divlabel" style="width: 65%;"><label >Destino:</label></div>
+            <input type="text" id="destino" /> <br />
+    
+            <div class="divlabel" style="width: 67%;"><label>Data de ida:</label></div>
+            <input type="date" id="ida"/> <br />
+    
+            <div class="divlabel"style="width: 69%;"><label>Data de volta:</label></div>
+            <input type="date" ida="volta"/> <br />
+
+            <div class="divlabel" style="width: 72%;"><label>Quantas pessoas:</label></div>
+            <input type="number" id="pessoas" /> <br />
+            
+            <div class="divbuttom">
+                <input type="submit" value="Salvar" onclick="salvar(event)"/>
+                <button>Cancelar</button>
+            </div>
+            
+            <a href="Index.html">Voltar ao menu</a>
+        </form>
+    </div>
+
+    
+    <div class="divConteudo">
+        <h1>Viagens Cadastrada - Lista</h1>
+       
+            <table border="2" style="margin-left:20%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Destino</th>
+                        <th>Dia de ida</th>
+                        <th>Dia de volta</th>
+                        <th>Qtd. de pessoas</th>
+                    </tr>
+                </thead>
+                <tbody id="ListaDestino">
+                  
+                </tbody>
+            </table>
+
+        </div>
+    </body >
+</html>
