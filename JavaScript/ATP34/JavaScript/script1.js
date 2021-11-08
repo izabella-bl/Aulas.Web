@@ -21,7 +21,6 @@ function salvar(event){
     carregaTabela();
 }
 
-
 function carregaTabela(){
     let tbody = document.getElementById("ListaDestino");
     let viagens = JSON.parse(localStorage.getItem("viagem"));
