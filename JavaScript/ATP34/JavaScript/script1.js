@@ -13,7 +13,7 @@ function salvar(event){
     let volta = document.getElementById("volta")
     let pessoas = document.getElementById("pessoas")
 
-     viagem = { "Id": id.value, "Destino": destino.value, "Ida": ida.value , "Volta": volta.value, "Qtd de pessoas":pessoas.value};
+     viagem = { "id": id.value, "destino": destino.value, "ida": ida.value , "volta": volta.value, "qtdDePessoas":pessoas.value};
      let viagens = JSON.parse(localStorage.getItem("viagem"));
      viagens.push(viagem);
      localStorage.setItem("viagem", JSON.stringify(viagens));
@@ -28,11 +28,11 @@ function carregaTabela(){
     tbody.innerHTML = "";
     viagens.forEach(v => {
         tbody.innerHTML += "<tr>"
-                        +"<td>"+ v["Id"] +"</td>"
-                        +"<td>"+ v["Destino"] +"</td>"
-                        +"<td>"+ v["Dia de ida"] +"</td>"
-                        +"<td>"+ v["Dia de volta"] +"</td>"
-                        +"<td>"+ v["Qtd. de pessoas"] +"</td>"
+                        +"<td>"+ v["id"] +"</td>"
+                        +"<td>"+ v["destino"] +"</td>"
+                        +"<td>"+ v["ida"] +"</td>"
+                        +"<td>"+ v["volta"] +"</td>"
+                        +"<td>"+ v["qtdDePessoas"] +"</td>"
                        +"</tr>";
     });    
 }
